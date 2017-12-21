@@ -90,8 +90,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\View\EnemyBehavior.cs" />
-    <Compile Include="Assets\Scripts\View\MeshFader.cs" />
+    <Compile Include="Assets\Scripts\View\Behavior\EnemyBehavior.cs" />
+    <Compile Include="Assets\Scripts\View\Component\HealthComponent.cs" />
+    <Compile Include="Assets\Scripts\View\Component\MeshFader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Models\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />
