@@ -28,6 +28,7 @@ public class EnemyBehavior : MonoBehaviour {
 
     private void Awake()
     {
+        GameFacade.GetInstance();
         animator = GetComponent<Animator>();
         meshFader = GetComponent<MeshFader>();
         audioSource = GetComponent<AudioSource>();
